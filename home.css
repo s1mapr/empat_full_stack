@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro-block {
+    display: flex;
+    height: 480px;
+    width: 100%;
+    color: #ffffff;
+    margin-top: 60px;
+}
+
+.intro-block-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 42%;
+    background-color: #202C39;
+    padding-left: 235px;
+    font-size: 26px;
+    gap: 15px;
+}
+
+.intro-block-info-text {
+    width: 82%;
+    height: fit-content;
+}
+
+.intro-block-info-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82%;
+    height: 54px;
+    background-color: #5C80BC;
+    border-radius: 4px;
+}
+
+.intro-block-img {
+    height: 100%;
+    width: 58%;
+    background-image: url('images/mercedes.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.services-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 540px;
+    background-color: #E2E2E2;
+    padding: 91px 235px;
+}
+
+.services-block-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #545454;
+}
+
+.services-block-cards-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 24px;
+    height: 290px;
+    width: 30%;
+    border: 1px solid #545454;
+    font-size: 18px;
+}
+
+.services-block-cards-card-text {
+    width: 87%;
+    height: fit-content;
+    text-align: center;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.advantages-block {
+    width: 100%;
+    height: 342px;
+    background-color: #202C39;
+    display: flex;
+    gap: 51px;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    padding: 70px 235px;
+}
+
+.advantages-block h2 {
+    text-decoration: underline #5C80BC;
+}
+
+.advantages-block-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.advantages-block-cards-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: fit-content;
+    width: 23%;
+    font-size: 18px;
+}
+
+.advantages-block-cards-card-text {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: 16px;
+}
+
+.partners-block{
+    width: 100%;
+    height: 183px;
+    padding: 28px 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#545454;
+}
+
+.partners-block-images{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.partners-block-images-image{
+    width: fit-content;
+    height: fit-content;
+}
+
+.action-block{
+    display: flex;
+    width: 100%;
+    height: 532px;
+}
+
+.action-block-formdiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 28px;
+    height: 100%;
+    width: 50%;
+    padding-left: 235px;
+    background-color: #E2E2E2;
+}
+
+.action-block-formdiv h2{
+    color: #545454;
+}
+
+.action-block-formdiv-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 26px;
+    width: 81%;
+    background-color: #E2E2E2;
+    color: #838383;
+}
+
+.action-block-formdiv-form-input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #838383;
+    font-size: 16px;
+    background-color: #E2E2E2;
+    outline: none;
+}
+
+.action-block-formdiv-form-submit{
+    border: none;
+    border-radius: 4px;
+    background-color: #5C80BC;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 14px 0;
+}
+
+.action-block-img{
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.5)), url('images/mercedes2.jpg');
+    background-size: cover;
+    background-position: center;
+}
