@@ -79,6 +79,10 @@
     font-size: 18px;
 }
 
+.services-block-cards-card  h5{
+    font-size: 18px;
+}
+
 .services-block-cards-card-text {
     width: 87%;
     height: fit-content;
@@ -124,6 +128,10 @@ h2 {
     font-size: 18px;
 }
 
+.advantages-block-cards-card h5{
+    font-size: 22px;
+}
+
 .advantages-block-cards-card-text {
     width: 100%;
     height: fit-content;
@@ -131,17 +139,17 @@ h2 {
     font-size: 16px;
 }
 
-.partners-block{
+.partners-block {
     width: 100%;
     height: 183px;
     padding: 28px 235px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color:#545454;
+    color: #545454;
 }
 
-.partners-block-images{
+.partners-block-images {
     width: 100%;
     height: fit-content;
     display: flex;
@@ -150,20 +158,21 @@ h2 {
     justify-content: space-between;
 }
 
-.partners-block-images-image{
+.partners-block-images-image {
     width: fit-content;
     height: fit-content;
 }
 
-.action-block{
+.action-block {
     display: flex;
     width: 100%;
     height: 532px;
 }
 
-.action-block-formdiv{
+.action-block-formdiv {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     gap: 28px;
     height: 100%;
@@ -172,11 +181,11 @@ h2 {
     background-color: #E2E2E2;
 }
 
-.action-block-formdiv h2{
+.action-block-formdiv h2 {
     color: #545454;
 }
 
-.action-block-formdiv-form{
+.action-block-formdiv-form {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -186,7 +195,7 @@ h2 {
     color: #838383;
 }
 
-.action-block-formdiv-form-input{
+.action-block-formdiv-form-input {
     width: 100%;
     border: none;
     border-bottom: 1px solid #838383;
@@ -195,7 +204,7 @@ h2 {
     outline: none;
 }
 
-.action-block-formdiv-form-submit{
+.action-block-formdiv-form-submit {
     border: none;
     border-radius: 4px;
     background-color: #5C80BC;
@@ -204,10 +213,208 @@ h2 {
     padding: 14px 0;
 }
 
-.action-block-img{
+.action-block-img {
     height: 100%;
     width: 50%;
     background-image: linear-gradient(rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.5)), url('images/mercedes2.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+@media (max-width: 1080px) {
+    .intro-block {
+        height: 407px;
+
+    }
+
+    .intro-block-info {
+        width: 100%;
+        background-image: linear-gradient(rgba(32, 44, 57, 0.5), rgba(32, 44, 57, 0.5)), url('images/mercedes.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .intro-block-img {
+        display: none;
+    }
+
+    .intro-block-info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 255px;
+        font-size: 22px;
+        gap: 20px;
+    }
+
+    .intro-block-info-text {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .intro-block-info-action {
+        width: 100%;
+        height: 49px;
+    }
+
+    .services-block {
+        text-align: center;
+        gap: 40px;
+        height: fit-content;
+        background-color: #E2E2E2;
+        padding: 64px 248px;
+    }
+
+    .services-block-cards {
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .services-block-cards-card {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    
+    .advantages-block {
+        height: fit-content;
+        gap: 48px;
+        padding: 65px 115px 17px 115px;
+    }
+
+    .advantages-block-cards {
+        flex-wrap: wrap;
+    }
+
+    
+    .advantages-block-cards-card {
+        padding-bottom: 48px;
+        width: calc(50% - 10px); 
+    }
+
+    .advantages-block-cards-card h5{
+        font-size: 20px;
+    }
+
+    .partners-block {
+        display: none;
+    }
+    
+    .action-block {
+        height: 470px;
+    }
+    
+    .action-block-formdiv {
+
+        height: 100%;
+        width: 100%;
+        padding-left: 0;
+        background-image: linear-gradient(rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.5)), url('images/mercedes2.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .action-block-formdiv h2 {
+        color: #3E3E3E;
+    }
+    
+    .action-block-formdiv-form {
+        width: 48%;
+        background-color: transparent;
+        color: #3E3E3E;
+    }
+    
+    .action-block-formdiv-form-input {
+        border-bottom: 1px solid #3E3E3E;
+        background-color: transparent;
+    }
+    
+    .action-block-img {
+        display: none;
+    }
+    input::placeholder {
+        color: #3E3E3E;
+    }
+
+}
+
+
+@media (max-width: 730px) {
+    .intro-block {
+        height: 385px;
+    }
+
+    .intro-block-info {
+        padding: 0 150px;
+        font-size: 18px;
+    }
+
+    .intro-block-info-action {
+        font-size: 16px;
+    }
+    .advantages-block h2{
+        font-size: 22px;
+    }
+
+    .services-block {
+        gap: 10px;
+        padding: 40px 150px;
+    }
+
+
+    .advantages-block {
+        gap: 20px;
+        height: fit-content;
+        padding: 40px 85px 40px 85px;
+    }
+
+    .advantages-block-cards-card {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 520px) {
+    .intro-block-info {
+        padding: 0 77px;
+    }
+
+    .services-block {
+        padding: 40px 77px;
+    }
+
+    .action-block-formdiv-form {
+        width: 80%;
+    }
+
+    .services-block-cards-card-text {
+        font-size: 14px;
+    }
+
+    .services-block-cards-card h5 {
+        font-size: 16px;
+    }
+    
+    .advantages-block h2{
+        font-size: 18px;
+    }
+
+    .advantages-block-cards-card h5{
+        font-size: 16px;
+    }
+    
+    .advantages-block-cards-card-text {
+        font-size: 14px;
+    }
+
 }

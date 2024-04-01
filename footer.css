@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-
+    font-size: 16px;
 }
 
 .footer-info-block h4 {
@@ -42,4 +42,49 @@
     justify-content: center;
     align-items: center;
     font-size: 22px;
+}
+
+@media (max-width: 1080px) {
+    .logistic {
+        display: none;
+    }
+
+    .footer-info {
+        padding: 0 120px;
+    }
+
+    .footer-bottom {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 770px) {
+    .types {
+        display: none;
+    }
+
+    .footer-info {
+        padding: 0 30px;
+    }
+
+    .footer-bottom {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 440px) {
+    .services {
+        display: none;
+    }
+
+    .footer-bottom {
+        font-size: 14px;
+    }
+    .footer-info-block {
+        font-size: 14px;
+    }
+
+    .footer-info-block h4 {
+        font-size: 16px;
+    }
 }

@@ -28,6 +28,21 @@
         <div class="header-action">
             <a>Оформити замовлення</a>
         </div>
+        <div class="dropdown">
+            <button class="dropdown-btn" onclick="toggleDropdown()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path fill="#5c80bc" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z" />
+                </svg>
+            </button>
+            <div class="dropdown-content" id="dropdownContent">
+                <a href="home.html">Головна</a>
+                <a href="prices.html">Ціни</a>
+                <a href="contacts.html">Контакти</a>
+                <div class="dropdown-content-header-action">
+                    <a style="color: #FFFFFF; padding: 0;">Оформити замовлення</a>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
         <div class="contacts-container">
@@ -36,7 +51,7 @@
                 <div class="contacts-container-info-blocks">
                     <div class="contacts-container-info-blocks-block">
                         <p style="display: flex; align-items: center;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" style="flex-shrink: 0;">
                                 <path fill="#5c80bc"
                                     d="M16 18a5 5 0 1 1 5-5a5.006 5.006 0 0 1-5 5m0-8a3 3 0 1 0 3 3a3.003 3.003 0 0 0-3-3" />
                                 <path fill="#5c80bc"
@@ -46,7 +61,7 @@
                     </div>
                     <div class="contacts-container-info-blocks-block">
                         <p style="display: flex; align-items: center;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="flex-shrink: 0;">
                                 <path fill="#5c80bc"
                                     d="M12 20a8 8 0 0 0 8-8a8 8 0 0 0-8-8a8 8 0 0 0-8 8a8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10a10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67l-.75 1.23L11 13V7z" />
                             </svg> ПН-ПТ: 09:00-18:00
@@ -54,7 +69,7 @@
                     </div>
                     <div class="contacts-container-info-blocks-block">
                         <p style="display: flex; align-items: center;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256" style="flex-shrink: 0;">
                                 <path fill="#5c80bc"
                                     d="m222.37 158.46l-47.11-21.11l-.13-.06a16 16 0 0 0-15.17 1.4a8.12 8.12 0 0 0-.75.56L134.87 160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16 16 0 0 0 1.32-15.06v-.12L97.54 33.64a16 16 0 0 0-16.62-9.52A56.26 56.26 0 0 0 32 80c0 79.4 64.6 144 144 144a56.26 56.26 0 0 0 55.88-48.92a16 16 0 0 0-9.51-16.62M176 208A128.14 128.14 0 0 1 48 80a40.2 40.2 0 0 1 34.87-40a.61.61 0 0 0 0 .12l21 47l-20.67 24.74a6.13 6.13 0 0 0-.57.77a16 16 0 0 0-1 15.7c9.06 18.53 27.73 37.06 46.46 46.11a16 16 0 0 0 15.75-1.14a8.44 8.44 0 0 0 .74-.56L168.89 152l47 21.05h.11A40.21 40.21 0 0 1 176 208" />
                             </svg> +38(097) 628-42-16, +38(097) 221-20-62
@@ -62,7 +77,7 @@
                     </div>
                     <div class="contacts-container-info-blocks-block">
                         <p style="display: flex; align-items: center;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="flex-shrink: 0;">
                                 <path fill="#5c80bc"
                                     d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7L4 8v10h16V8zm0-2l8-5H4zM4 8V6v12z" />
                             </svg> info@proxy-trans-group.com
@@ -88,28 +103,28 @@
     </main>
     <footer>
         <div class="footer-info">
-            <div class="footer-info-block">
+            <div class="footer-info-block services">
                 <h4>ТРАНСПОРТНІ ПОСЛУГИ</h4>
                 <div class="footer-info-text">
                     <p>Перевезення по Україні</p>
                     <p>Попутний вантаж</p>
                 </div>
             </div>
-            <div class="footer-info-block">
+            <div class="footer-info-block types">
                 <h4>ВИДИ ВАНТАЖІВ</h4>
                 <div class="footer-info-text">
                     <p>Генеральні</p>
                     <p>Збірні</p>
                 </div>
             </div>
-            <div class="footer-info-block">
+            <div class="footer-info-block logistic">
                 <h4>ТРАНСПОРТНА ЛОГІСТИКА</h4>
                 <div class="footer-info-text">
                     <p>Розробка оптимального маршруту</p>
                     <p>Експедування вантажів</p>
                 </div>
             </div>
-            <div class="footer-info-block">
+            <div class="footer-info-block contscts">
                 <h4>КОНТАКТИ</h4>
                 <div class="footer-info-text">
                     <p>+38(097) 628-42-16</p>
@@ -122,5 +137,6 @@
         </div>
     </footer>
 </body>
+<script src="script.js"></script>
 
 </html>

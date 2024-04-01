@@ -28,6 +28,21 @@
         <div class="header-action">
             <a>Оформити замовлення</a>
         </div>
+        <div class="dropdown">
+            <button class="dropdown-btn" onclick="toggleDropdown()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path fill="#5c80bc" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z" />
+                </svg>
+            </button>
+            <div class="dropdown-content" id="dropdownContent">
+                <a href="home.html">Головна</a>
+                <a href="prices.html">Ціни</a>
+                <a href="contacts.html">Контакти</a>
+                <div class="dropdown-content-header-action">
+                    <a style="color: #FFFFFF; padding: 0;">Оформити замовлення</a>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
         <div class="intro-block">
@@ -147,28 +162,28 @@
     </main>
     <footer>
         <div class="footer-info">
-            <div class="footer-info-block">
+            <div class="footer-info-block services">
                 <h4>ТРАНСПОРТНІ ПОСЛУГИ</h4>
                 <div class="footer-info-text">
                     <p>Перевезення по Україні</p>
                     <p>Попутний вантаж</p>
                 </div>
             </div>
-            <div class="footer-info-block">
+            <div class="footer-info-block types">
                 <h4>ВИДИ ВАНТАЖІВ</h4>
                 <div class="footer-info-text">
                     <p>Генеральні</p>
                     <p>Збірні</p>
                 </div>
             </div>
-            <div class="footer-info-block">
+            <div class="footer-info-block logistic">
                 <h4>ТРАНСПОРТНА ЛОГІСТИКА</h4>
                 <div class="footer-info-text">
                     <p>Розробка оптимального маршруту</p>
                     <p>Експедування вантажів</p>
                 </div>
             </div>
-            <div class="footer-info-block">
+            <div class="footer-info-block contscts">
                 <h4>КОНТАКТИ</h4>
                 <div class="footer-info-text">
                     <p>+38(097) 628-42-16</p>
@@ -181,5 +196,6 @@
         </div>
     </footer>
 </body>
+<script src="script.js"></script>
 
 </html>
