@@ -5,45 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ціни</title>
-    <link rel="stylesheet" type="text/css" href="header.css">
-    <link rel="stylesheet" type="text/css" href="prices.css">
-    <link rel="stylesheet" type="text/css" href="footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <style>
+        <?php
+            include 'css/header.css';
+            include 'css/prices.css';
+            include 'css/footer.css';
+        ?>
+    </style>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-logo">
-            <a href="home.html">ProxyTransGroup</a>
-        </div>
-        <div class="header-routes">
-            <a href="home.html">Головна</a>
-            <a href="prices.html">Ціни</a>
-            <a href="contacts.html">Контакти</a>
-        </div>
-        <div class="header-action">
-            <a>Оформити замовлення</a>
-        </div>
-        <div class="dropdown">
-            <button class="dropdown-btn" onclick="toggleDropdown()">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
-                    <path fill="#5c80bc" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z" />
-                </svg>
-            </button>
-            <div class="dropdown-content" id="dropdownContent">
-                <a href="home.html">Головна</a>
-                <a href="prices.html">Ціни</a>
-                <a href="contacts.html">Контакти</a>
-                <div class="dropdown-content-header-action">
-                    <a style="color: #FFFFFF; padding: 0;">Оформити замовлення</a>
-                </div>
+<header class="header">
+    <div class="header-logo">
+        <a href="?page=home">ProxyTransGroup</a>
+    </div>
+    <div class="header-routes">
+        <a href="?page=home">Головна</a>
+        <a href="?page=prices">Ціни</a>
+        <a href="?page=contacts">Контакти</a>
+    </div>
+    <div class="header-action">
+        <a>Оформити замовлення</a>
+    </div>
+    <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown()">
+            <svg  xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                <path fill="#5c80bc" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z"/>
+            </svg>
+        </button>
+        <div class="dropdown-content" id="dropdownContent">
+            <a href="?page=home">Головна</a>
+            <a href="?page=prices">Ціни</a>
+            <a href="?page=contacts">Контакти</a>
+            <div class="dropdown-content-header-action">
+                <a style="color: #FFFFFF; padding: 0;">Оформити замовлення</a>
             </div>
         </div>
-    </header>
+    </div>
+</header>
     <main>
         <div class="contact-container">
             <div class="contact-container-title">
@@ -179,6 +183,6 @@
         </div>
     </footer>
 </body>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 
 </html>

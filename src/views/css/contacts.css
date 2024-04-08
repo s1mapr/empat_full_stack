@@ -47,7 +47,7 @@
 .contact-container-img{
     height: 218px;
     width: 63%;
-    background-image: url('images/map.png');
+    background-image: url('../images/map.png');
     background-size: cover;
     background-position: center;
 }

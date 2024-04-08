@@ -43,7 +43,7 @@
 .intro-block-img {
     height: 100%;
     width: 58%;
-    background-image: url('images/mercedes.jpg');
+    background-image: url('../images/mercedes.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -216,7 +216,7 @@ h2 {
 .action-block-img {
     height: 100%;
     width: 50%;
-    background-image: linear-gradient(rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.5)), url('images/mercedes2.jpg');
+    background-image: linear-gradient(rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.5)), url('../images/mercedes2.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -233,7 +233,7 @@ h2 {
 
     .intro-block-info {
         width: 100%;
-        background-image: linear-gradient(rgba(32, 44, 57, 0.5), rgba(32, 44, 57, 0.5)), url('images/mercedes.jpg');
+        background-image: linear-gradient(rgba(32, 44, 57, 0.5), rgba(32, 44, 57, 0.5)), url('../images/mercedes.jpg');
         background-size: cover;
         background-position: center;
     }
@@ -318,7 +318,7 @@ h2 {
         height: 100%;
         width: 100%;
         padding-left: 0;
-        background-image: linear-gradient(rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.5)), url('images/mercedes2.jpg');
+        background-image: linear-gradient(rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.5)), url('../images/mercedes2.jpg');
         background-size: cover;
         background-position: center;
     }
